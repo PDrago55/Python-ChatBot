@@ -21,7 +21,7 @@ import pickle
 #todos = json.loads(response.text)
 #print(todos["userId"])
 
-
+test=[]
 with open("intents.json") as read_file:
     data = json.load(read_file)
     
